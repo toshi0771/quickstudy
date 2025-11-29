@@ -5,7 +5,7 @@ import SubjectPage from './pages/SubjectPage'
 
 function App() {
   return (
-    <Router>
+    <Router basename="/quickstudy">
       <Routes>
         <Route path="/" element={<HomePage />} />
         <Route path="/subject/:subjectId" element={<SubjectPage />} />
